@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+    <h1>Contact Me</h1>
+
+    <!-- Navigasi -->
+    <nav>
+         <a href="home.html">Home</a> |
+ <a href="about.html">About</a> |
+ <a href="kontak.html">Kontak</a> |
+ <a href="project.html">Project</a> |
+    </nav>
+
+    <hr>
+
+    <!-- Informasi Kontak -->
+    <h2>Informasi Kontak</h2>
+
+    <p>
+        Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya
+        melalui form berikut.<br>
+        Anda juga dapat mengirim email ke
+        <a href="mailto:zihanrostianti037@gmail.com">zihan@gmail.com</a>.
+    </p>
+
+    <!-- Form Pesan -->
+    <h2>Form Pesan</h2>
+
+    <form>
+
+        <table border="1" cellspacing="0" cellpadding="8">
+
+            <!-- Judul Form -->
+            <tr>
+                <th colspan="2">Form Data Kontak</th>
+            </tr>
+
+            <!-- Nama -->
+            <tr>
+                <th>Nama Lengkap:</th>
+                <td>
+                    <input type="text" name="nama">
+                </td>
+            </tr>
+
+            <!-- Email -->
+            <tr>
+                <th>Email:</th>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+
+            <!-- Nomor Telepon -->
+            <tr>
+                <th>Nomor Telepon:</th>
+                <td>
+                    <input type="tel" name="telepon">
+                </td>
+            </tr>
+
+            <!-- Jenis Kelamin -->
+            <tr>
+                <th>Jenis Kelamin:</th>
+                <td>
+                    <input type="radio" name="gender" value="laki-laki">
+                    Laki-laki
+
+                    <input type="radio" name="gender" value="perempuan">
+                    Perempuan
+                </td>
+            </tr>
+
+            <!-- Tanggal Lahir -->
+            <tr>
+                <th>Tanggal Lahir:</th>
+                <td>
+                    <input type="date" name="tanggal_lahir">
+                </td>
+            </tr>
+
+            <!-- Topik Pesan -->
+            <tr>
+                <th>Topik Pesan:</th>
+                <td>
+                    <select name="topik">
+                        <option value="diskusi">Diskusi</option>
+                        <option value="kerjasama">Kerja Sama</option>
+                        <option value="pertanyaan">Pertanyaan</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Jenis Pesan -->
+            <tr>
+                <th>Jenis Pesan:</th>
+                <td>
+                    <input type="radio" name="jenis_pesan" value="pertanyaan">
+                    Pertanyaan
+
+                    <input type="radio" name="jenis_pesan" value="saran">
+                    Saran
+
+                    <input type="radio" name="jenis_pesan" value="lainnya">
+                    Lainnya
+                </td>
+            </tr>
+
+            <!-- Pesan -->
+            <tr>
+                <th>Pesan:</th>
+                <td>
+                    <textarea name="pesan" rows="6" cols="35"></textarea>
+                </td>
+            </tr>
+
+            <!-- Salinan Pesan -->
+            <tr>
+                <th>Salinan Pesan:</th>
+                <td>
+                    <input type="checkbox" name="salinan">
+                    Kirim salinan pesan ke email saya
+                </td>
+            </tr>
+
+            <!-- Tombol -->
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Kirim Pesan</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <!-- Catatan -->
+    <p>
+        <i>
+            Catatan: karena website ini hanya menggunakan HTML,
+            form belum terhubung ke server/database.
+        </i>
+    </p>
+
+    <hr>
+
+    <!-- Kembali -->
+    <p>
+        <a href="index.html">Kembali ke Home</a>
+    </p>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Zihan Rostianti.
+    </footer>
+
+</body>
+</html>
